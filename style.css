@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    overflow: hidden;
+}
+
+.container{
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    margin: 180px auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+h1{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+
+}
+
+p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+    line-height: 1.3rem;
+    font-weight: 100;
+}
+
+img{
+    width: 10px;
+}
+
+.img{
+    background-color: hsl(213, 14%, 25%);
+    width: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.rating{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate{
+    background-color: hsl(213, 14%, 25%);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    color: hsl(0, 0%, 100%);
+}
+
+.rate:hover{
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+
+.rate.active{
+    background-color: hsl(25, 97%, 53%);
+}
+
+button{
+    margin-top: 25px;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    outline: none;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: .1rem;
+}
+
+button:hover{
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1 img{
+    width: 150px;
+}
+
+.selected p{
+    padding-top: -15px;
+    position: relative;
+    top: -5px;
+    color: hsl(25, 73%, 52%);
+}
+
+.selected{
+    margin: 20px auto;
+    text-align: center;
+    background-color: hsl(213, 14%, 25%);
+    width: 60%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body p{
+    text-align: center;
+    color: rgb(162, 159, 159);
+}
+
+footer{
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    bottom: 40px;
+    font-size: 5%;
+    left: 37%;
+}
+
+footer span{
+    color: hsl(25, 73%, 52%);
+    font-size: 100%;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+    footer{
+        position: absolute;
+        bottom: 40px;
+        left: 20%;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    footer{
+        position: absolute;
+        bottom: 40px;
+        left: 15%;
+    }
+    
+}
