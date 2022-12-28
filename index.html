@@ -12,20 +12,47 @@
       <div class="container">
         <div class="content">
           <div class="img">
-            <img src="images/icon-star.svg" />
+            <img
+              src="images/icon-star.svg"
+              alt="icon-star"
+              aria-hidden="“true”"
+            />
           </div>
           <h1>How did we do?</h1>
           <p>
             Please let us know how we did with your support request. All
             feedback is appreciatable to help us improve our offering
           </p>
-          <div class="rating">
-            <div class="rate">1</div>
+
+          <!-- <div class="rate">1</div>
             <div class="rate">2</div>
             <div class="rate">3</div>
             <div class="rate">4</div>
-            <div class="rate">5</div>
-          </div>
+            <div class="rate">5</div> -->
+          <form class="myForm">
+            <ul>
+              <li>
+                <label class="rate" for="num1">1</label>
+                <input id="num1" type="radio" name="rating" value="1" />
+              </li>
+              <li>
+                <label class="rate" for="num2">2</label>
+                <input id="num2" type="radio" name="rating" value="2" />
+              </li>
+              <li>
+                <label class="rate" for="num3">3</label>
+                <input id="num3" type="radio" name="rating" value="3" />
+              </li>
+              <li>
+                <label class="rate" for="num4">4</label>
+                <input id="num4" type="radio" name="rating" value="4" />
+              </li>
+              <li>
+                <label class="rate" for="num5">5</label>
+                <input id="num5" type="radio" name="rating" value="5" />
+              </li>
+            </ul>
+          </form>
           <button class="btn">Submit</button>
         </div>
         <footer>

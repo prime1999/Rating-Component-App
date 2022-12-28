@@ -55,13 +55,18 @@ img{
     border-radius: 50%;
 }
 
-.rating{
+form ul{
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 
-.rate{
+[type="radio"]{
+    opacity: 0;
+}
+
+li label{
     background-color: hsl(213, 14%, 25%);
     padding: 10px;
     display: flex;
@@ -72,12 +77,12 @@ img{
     color: hsl(0, 0%, 100%);
 }
 
-.rate:hover{
+li label:hover{
     background-color: hsl(217, 12%, 63%);
     cursor: pointer;
 }
 
-.rate.active{
+label.active{
     background-color: hsl(25, 97%, 53%);
 }
 

@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/prime1999/Rating-Component-App)
+- Live Site URL: [Add live site URL here](https://zesty-bavarois-ff65f2.netlify.app)
 
 ## My process
 
